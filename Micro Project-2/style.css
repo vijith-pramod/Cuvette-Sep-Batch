@@ -1,0 +1,266 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+   
+}
+body{
+    overflow-x: hidden; 
+    width: 100vw;
+    height: 100vh;
+}
+
+
+.nav-bar{
+    background-color: #6F6AF7;
+    /* padding: 10px; */
+    width: 100vw;
+    
+    height: 5em;
+    position: fixed;
+    z-index: 1;
+    
+}
+
+nav ul{
+    display: flex;
+    /* justify-content: space-between; */
+    list-style: none;
+    color: #fff;
+    font-size: larger;
+    gap: 120px;
+    padding-top: 30px;
+    padding-left: 45px;
+    
+    
+}
+nav ul li a{
+    cursor: pointer;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    text-decoration: underline;
+}
+nav ul li img{
+    width: 110px;
+    
+}
+
+nav ul li input{
+    padding: 10px;
+    width: 215px;
+    border-radius: 45px;
+    border-color: #6F6AF7;
+    position: relative;
+    top: -10px;
+    
+}
+
+/* section */
+
+.section-1{
+    width: 100%;
+   
+   
+    padding-top: 10em;
+    
+    display: flex;
+    gap: 70px;
+    padding-left: 12em;
+    
+}
+.section-1 img{
+    width: 350px;
+    height: 350px;
+   
+   
+}
+.section-1 textarea{
+    width: 750px;
+    font-size: 16px;
+    overflow: hidden;
+ 
+    padding-bottom: 315px;
+    padding-top: 18px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 10px;
+    background-color: #E5D8FF;
+    border: #E5D8FF;
+    color: #6F7373;
+    
+    
+}
+
+
+.social-media img{
+   
+    width: 150px;
+    height: 150px;
+    position: fixed;
+    top: 180px;
+    right: 0;
+    cursor: pointer;
+    /* z-index: 1; */
+
+}
+.section-2{
+    display: flex;
+    gap:80px;
+}
+.section-2 .box{
+    width: 250px;
+    height: 100px;
+    border-radius: 10px;
+    position: relative;
+    top: 60px;
+    left: 8em;
+    color: #fff;
+    padding: 20px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.25);
+    /* background-color: yellowgreen; */
+}
+.section-2 .box-1{
+    background: #929DFF;
+}
+
+.section-2 .box-2{
+    background: #734CF2;
+
+}
+.section-2 .box-3{
+    background: #D288FF;
+
+}
+.section-2 .box-4{
+    background: #000000;
+
+}
+
+.assistance img{
+    width: 110px;
+    height: 110px;
+    position: fixed;
+    right: 0;
+    z-index: 1;
+    cursor: pointer;
+}
+/* 
+page-2 */
+
+.page-2{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.blue-box{
+    margin-top: 100px;
+    width: 75vw;
+    height: 65vh;
+    background: #483EFF;
+    display: flex;
+    gap: 21em;
+    border-radius: 10px;
+
+
+}
+/* .blue-box .bio-data{
+    width: 800px;
+    height: 415px;
+    position: relative;
+    top: 5%;
+    left: 2%;
+    padding: 50px;
+    border-radius: 10px;
+    color: #04285A;
+    background-color: #fff;
+    margin: 0 auto;
+    text-align: left;
+   
+}
+.bio-data h1{
+    font-size: 24px;
+}
+.bio-data p{
+    margin: 0;
+    font-size: 16px;
+}
+ */
+.info-container {
+    width: 100vw;
+    height: 415px;
+    position:relative;
+    top: 5%;
+    left: -3%;
+    padding: 50px;
+    border-radius: 10px;
+    color: #04285A;
+    background-color: #fff;
+    
+    margin: 0 auto;
+    text-align: left;
+}
+
+.info-container h1 {
+    font-size: 28px;
+}
+
+.info-row {
+    display: flex;
+    align-items: center;
+}
+
+.info-row p {
+    margin: 0;
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+.info-row strong {
+    min-width: 80px; /* Adjust the width to your preference */
+    display: inline-block;
+}
+.blue-box .info-container button{
+    background-color: #000;
+    color: #fff;
+    padding: 10px;
+    width: 90px;
+    position: relative;
+    top: 30%;
+    left: 80%;
+    border-radius: 10px;
+
+}
+.buttons{
+    display: flex;
+    flex-direction: column;
+    gap: 3.5em;
+    position: relative;
+    top: 5%;
+    left:15%
+    
+
+}
+
+
+.buttons button{
+    width: 350px;
+    height: 100px;
+    margin: 0;
+    padding: 0;
+    border-width: 3px;
+    border-radius: 10px;
+    background: #483EFF;
+    border-color: #fff;
+    color: #fff;
+    font-size: 18px;
+   
+
+    
+}
+button{
+    cursor: pointer;
+}
